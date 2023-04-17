@@ -6,7 +6,7 @@ import { forwardRef } from 'react'
 const Projects = forwardRef((props, ref) => {
   return (
     <section ref={ref} className='w-screen h-screen flex flex-1 flex-col justify-start items-center bg-gray-200'>
-        <h1 className='text-6xl font-bold m-10'>Projects</h1>
+        <h1 className='text-6xl font-bold m-10 scroll-pt-16'>Projects</h1>
         <div className='w-3/5 h-3/5 border-solid border-black border-2 m-10 flex'>
             <img src="./bg-image.jpg" alt='screenshot of project' className='m-5'></img>
             <div className='flex flex-col w-2/3 h-5/6 mt-10'>

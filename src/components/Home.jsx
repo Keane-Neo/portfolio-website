@@ -15,9 +15,11 @@ const Home = forwardRef((props, ref) => {
       { y: '100%' },
       {
         y: '0%',
-        duration: 0.5,
-        stagger: 0.02,
+        duration: 0.7,
+        repeatDelay: 1.4,
+        stagger: 0.05,
         ease: 'power4.out',
+        repeat: -1
       }
     );
     
@@ -26,10 +28,12 @@ const Home = forwardRef((props, ref) => {
       { y: '100%' },
       {
         y: '0%',
-        duration: 0.5,
-        delay: 1,
-        stagger: 0.02,
+        duration: 0.7,
+        delay: 0.7,
+        repeatDelay: 1.4,
+        stagger: 0.05,
         ease: 'power4.out',
+        repeat: -1
       }
     );
     
@@ -38,10 +42,12 @@ const Home = forwardRef((props, ref) => {
       { y: '100%' },
       {
         y: '0%',
-        duration: 0.5,
-        delay: 2,
-        stagger: 0.02,
+        duration: 0.7,
+        delay: 1.4,
+        repeatDelay: 1.4,
+        stagger: 0.05,
         ease: 'power4.out',
+        repeat: -1
       }
     );
   })
